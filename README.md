@@ -130,6 +130,10 @@ export const getModels = async (): Promise<{id: string, name: string}[]> => {
 
 ### Step 5: Run it
 
+```
+npm run dev
+```
+
 1.Select Model: The user first selects a model from the model selection screen.
 
 2.Download Model: You need to download the model from Ollama, after that the model will be showed in list.
